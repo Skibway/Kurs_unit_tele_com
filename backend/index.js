@@ -3,8 +3,8 @@ const httpServer = express();
 const dialer = require('dialer').Dialer;
 const config = {
     url: 'https://uni-call.fcc-online.pl',
-    login: 'focus28',
-    password: 'u09pi2hn3fs'
+    login: 'login',
+    password: 'password'
 }
 const cors = require('cors');
 const bodyParser = require('body-parser');
